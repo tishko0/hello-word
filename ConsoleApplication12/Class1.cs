@@ -29,41 +29,10 @@ namespace ConsoleApplication12
             this.alpha = alpha;
         }
 
-        public byte red
-        {
-            get
-            {
-                return red;
-            }
-            set
-            {
-                red=value;
-            }
-        }
-
-        public byte green
-        {
-            get
-            {
-                return green;
-            }
-            set
-            {
-                green=value;
-            }
-        }
-
-        public byte blue
-        {
-            get
-            {
-                return blue;
-            }
-            set
-            {
-                blue=value;
-            }
-        }
+        public byte red{get;set}
+        public byte green{get;set}
+        public byte blue{get;set}
+        
 
     }
 }
